@@ -29,6 +29,7 @@
 		C6A9E75F1CA336CD0077256F /* jsmn.c in Sources */ = {isa = PBXBuildFile; fileRef = C6A9E75A1CA336CD0077256F /* jsmn.c */; };
 		C6A9E7601CA336CD0077256F /* jsmntools.c in Sources */ = {isa = PBXBuildFile; fileRef = C6A9E75C1CA336CD0077256F /* jsmntools.c */; };
 		C6A9E7681CA336DC0077256F /* MessageLoop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C6A9E7651CA336DC0077256F /* MessageLoop.cpp */; };
+		C6A9E76A1CA33C6D0077256F /* libcurl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6A9E7691CA33C6D0077256F /* libcurl.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +92,16 @@
 		C6A9E7651CA336DC0077256F /* MessageLoop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MessageLoop.cpp; path = "../../msnger-core/core/MessageLoop.cpp"; sourceTree = "<group>"; };
 		C6A9E7661CA336DC0077256F /* MessageLoop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessageLoop.h; path = "../../msnger-core/core/MessageLoop.h"; sourceTree = "<group>"; };
 		C6A9E7671CA336DC0077256F /* Timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Timer.h; path = "../../msnger-core/core/Timer.h"; sourceTree = "<group>"; };
+		C6A9E7691CA33C6D0077256F /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcurl.a; path = libcurl/lib/libcurl.a; sourceTree = "<group>"; };
+		C6A9E76C1CA33CA40077256F /* curl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = curl.h; path = libcurl/include/curl/curl.h; sourceTree = "<group>"; };
+		C6A9E76D1CA33CA40077256F /* curlbuild.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = curlbuild.h; path = libcurl/include/curl/curlbuild.h; sourceTree = "<group>"; };
+		C6A9E76E1CA33CA40077256F /* curlrules.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = curlrules.h; path = libcurl/include/curl/curlrules.h; sourceTree = "<group>"; };
+		C6A9E76F1CA33CA40077256F /* curlver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = curlver.h; path = libcurl/include/curl/curlver.h; sourceTree = "<group>"; };
+		C6A9E7701CA33CA40077256F /* easy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = easy.h; path = libcurl/include/curl/easy.h; sourceTree = "<group>"; };
+		C6A9E7711CA33CA40077256F /* mprintf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mprintf.h; path = libcurl/include/curl/mprintf.h; sourceTree = "<group>"; };
+		C6A9E7721CA33CA40077256F /* multi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = multi.h; path = libcurl/include/curl/multi.h; sourceTree = "<group>"; };
+		C6A9E7731CA33CA40077256F /* stdcheaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stdcheaders.h; path = libcurl/include/curl/stdcheaders.h; sourceTree = "<group>"; };
+		C6A9E7741CA33CA40077256F /* typecheck-gcc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "typecheck-gcc.h"; path = "libcurl/include/curl/typecheck-gcc.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6A9E76A1CA33C6D0077256F /* libcurl.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,6 +133,7 @@
 		C60863DC1CA311450076EF7C = {
 			isa = PBXGroup;
 			children = (
+				C6A9E7691CA33C6D0077256F /* libcurl.a */,
 				C60864191CA3116C0076EF7C /* MsngerCore */,
 				C60863E71CA311450076EF7C /* Msnger */,
 				C60863E61CA311450076EF7C /* Products */,
@@ -155,6 +168,7 @@
 		C60864191CA3116C0076EF7C /* MsngerCore */ = {
 			isa = PBXGroup;
 			children = (
+				C6A9E76B1CA33C860077256F /* curl */,
 				C6A9E7611CA336D10077256F /* core */,
 				C6A9E73E1CA3364B0077256F /* core */,
 				C6A9E7421CA3366B0077256F /* gis */,
@@ -246,6 +260,22 @@
 				C6A9E7671CA336DC0077256F /* Timer.h */,
 			);
 			name = core;
+			sourceTree = "<group>";
+		};
+		C6A9E76B1CA33C860077256F /* curl */ = {
+			isa = PBXGroup;
+			children = (
+				C6A9E76C1CA33CA40077256F /* curl.h */,
+				C6A9E76D1CA33CA40077256F /* curlbuild.h */,
+				C6A9E76E1CA33CA40077256F /* curlrules.h */,
+				C6A9E76F1CA33CA40077256F /* curlver.h */,
+				C6A9E7701CA33CA40077256F /* easy.h */,
+				C6A9E7711CA33CA40077256F /* mprintf.h */,
+				C6A9E7721CA33CA40077256F /* multi.h */,
+				C6A9E7731CA33CA40077256F /* stdcheaders.h */,
+				C6A9E7741CA33CA40077256F /* typecheck-gcc.h */,
+			);
+			name = curl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -538,8 +568,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/libcurl/include";
 				INFOPLIST_FILE = Msnger/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libcurl/lib",
+				);
+				OTHER_CFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.stanislavin.Msnger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Msnger/Msnger-Bridging-Header.h";
@@ -552,8 +588,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/libcurl/include";
 				INFOPLIST_FILE = Msnger/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libcurl/lib",
+				);
+				OTHER_CFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.stanislavin.Msnger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Msnger/Msnger-Bridging-Header.h";
