@@ -93,17 +93,17 @@
 		C6A9E7651CA336DC0077256F /* MessageLoop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MessageLoop.cpp; path = "../../msnger-core/core/MessageLoop.cpp"; sourceTree = "<group>"; };
 		C6A9E7661CA336DC0077256F /* MessageLoop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessageLoop.h; path = "../../msnger-core/core/MessageLoop.h"; sourceTree = "<group>"; };
 		C6A9E7671CA336DC0077256F /* Timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Timer.h; path = "../../msnger-core/core/Timer.h"; sourceTree = "<group>"; };
-		C6A9E76C1CA33CA40077256F /* curl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = curl.h; path = libcurl/include/curl/curl.h; sourceTree = "<group>"; };
-		C6A9E76D1CA33CA40077256F /* curlbuild.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = curlbuild.h; path = libcurl/include/curl/curlbuild.h; sourceTree = "<group>"; };
-		C6A9E76E1CA33CA40077256F /* curlrules.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = curlrules.h; path = libcurl/include/curl/curlrules.h; sourceTree = "<group>"; };
-		C6A9E76F1CA33CA40077256F /* curlver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = curlver.h; path = libcurl/include/curl/curlver.h; sourceTree = "<group>"; };
-		C6A9E7701CA33CA40077256F /* easy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = easy.h; path = libcurl/include/curl/easy.h; sourceTree = "<group>"; };
-		C6A9E7711CA33CA40077256F /* mprintf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mprintf.h; path = libcurl/include/curl/mprintf.h; sourceTree = "<group>"; };
-		C6A9E7721CA33CA40077256F /* multi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = multi.h; path = libcurl/include/curl/multi.h; sourceTree = "<group>"; };
-		C6A9E7731CA33CA40077256F /* stdcheaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stdcheaders.h; path = libcurl/include/curl/stdcheaders.h; sourceTree = "<group>"; };
-		C6A9E7741CA33CA40077256F /* typecheck-gcc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "typecheck-gcc.h"; path = "libcurl/include/curl/typecheck-gcc.h"; sourceTree = "<group>"; };
 		C6A9E7751CA341D80077256F /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcurl.a; path = libcurl/libcurl.a; sourceTree = "<group>"; };
 		C6A9E7771CA342250077256F /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		C6A9E77A1CA3F37E0077256F /* curl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = curl.h; path = "../../msnger-core/curl/curl.h"; sourceTree = "<group>"; };
+		C6A9E77B1CA3F37E0077256F /* curlbuild.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = curlbuild.h; path = "../../msnger-core/curl/curlbuild.h"; sourceTree = "<group>"; };
+		C6A9E77C1CA3F37E0077256F /* curlrules.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = curlrules.h; path = "../../msnger-core/curl/curlrules.h"; sourceTree = "<group>"; };
+		C6A9E77D1CA3F37E0077256F /* curlver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = curlver.h; path = "../../msnger-core/curl/curlver.h"; sourceTree = "<group>"; };
+		C6A9E77E1CA3F37E0077256F /* easy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = easy.h; path = "../../msnger-core/curl/easy.h"; sourceTree = "<group>"; };
+		C6A9E77F1CA3F37E0077256F /* mprintf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mprintf.h; path = "../../msnger-core/curl/mprintf.h"; sourceTree = "<group>"; };
+		C6A9E7801CA3F37E0077256F /* multi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = multi.h; path = "../../msnger-core/curl/multi.h"; sourceTree = "<group>"; };
+		C6A9E7811CA3F37E0077256F /* stdcheaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stdcheaders.h; path = "../../msnger-core/curl/stdcheaders.h"; sourceTree = "<group>"; };
+		C6A9E7821CA3F37E0077256F /* typecheck-gcc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "typecheck-gcc.h"; path = "../../msnger-core/curl/typecheck-gcc.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,7 +172,7 @@
 		C60864191CA3116C0076EF7C /* MsngerCore */ = {
 			isa = PBXGroup;
 			children = (
-				C6A9E76B1CA33C860077256F /* curl */,
+				C6A9E7791CA3F3690077256F /* curl */,
 				C6A9E7611CA336D10077256F /* core */,
 				C6A9E7421CA3366B0077256F /* gis */,
 				C6A9E7511CA336AA0077256F /* http */,
@@ -258,18 +258,18 @@
 			name = core;
 			sourceTree = "<group>";
 		};
-		C6A9E76B1CA33C860077256F /* curl */ = {
+		C6A9E7791CA3F3690077256F /* curl */ = {
 			isa = PBXGroup;
 			children = (
-				C6A9E76C1CA33CA40077256F /* curl.h */,
-				C6A9E76D1CA33CA40077256F /* curlbuild.h */,
-				C6A9E76E1CA33CA40077256F /* curlrules.h */,
-				C6A9E76F1CA33CA40077256F /* curlver.h */,
-				C6A9E7701CA33CA40077256F /* easy.h */,
-				C6A9E7711CA33CA40077256F /* mprintf.h */,
-				C6A9E7721CA33CA40077256F /* multi.h */,
-				C6A9E7731CA33CA40077256F /* stdcheaders.h */,
-				C6A9E7741CA33CA40077256F /* typecheck-gcc.h */,
+				C6A9E77A1CA3F37E0077256F /* curl.h */,
+				C6A9E77B1CA3F37E0077256F /* curlbuild.h */,
+				C6A9E77C1CA3F37E0077256F /* curlrules.h */,
+				C6A9E77D1CA3F37E0077256F /* curlver.h */,
+				C6A9E77E1CA3F37E0077256F /* easy.h */,
+				C6A9E77F1CA3F37E0077256F /* mprintf.h */,
+				C6A9E7801CA3F37E0077256F /* multi.h */,
+				C6A9E7811CA3F37E0077256F /* stdcheaders.h */,
+				C6A9E7821CA3F37E0077256F /* typecheck-gcc.h */,
 			);
 			name = curl;
 			sourceTree = "<group>";
@@ -565,7 +565,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				ENABLE_BITCODE = NO;
-				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/libcurl/include";
+				HEADER_SEARCH_PATHS = "../../msnger-core/";
 				INFOPLIST_FILE = Msnger/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -586,7 +586,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				ENABLE_BITCODE = NO;
-				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/libcurl/include";
+				HEADER_SEARCH_PATHS = "../../msnger-core/";
 				INFOPLIST_FILE = Msnger/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
