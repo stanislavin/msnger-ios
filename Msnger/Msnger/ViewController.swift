@@ -10,20 +10,31 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    static var mMsnger:Msnger? = nil
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        ViewController.mMsnger = createMsnger()
+        let number = "79213276120"
+        let message = "Hello from swift!"
+        let lat = 59.944263
+        let lon = 30.315868
         
-        let msnger:Msnger = Msnger()
-        let number = "79213276120".dataUsingEncoding(NSUTF8StringEncoding)!
-        let message = "Hello from swift!".dataUsingEncoding(NSUTF8StringEncoding)!
-        let lat = 0.0
-        let lon = 0.0
-        sendMessage(msnger, UnsafeMutablePointer(number.bytes), UnsafeMutablePointer(message.bytes), lat, lon,
+        sendMessage(ViewController.mMsnger!, number, message, lat, lon,
             {
                 code in
-                let _ = code
-            })
+                print("Message result code: \(code)")
+        })
+    }
+    
+    override func viewDidDisappear(animated: Bool) {
+        if let mMsnger = ViewController.mMsnger {
+            releaseMsnger(mMsnger)
+        }
     }
 
     override func didReceiveMemoryWarning() {

@@ -174,7 +174,6 @@
 			children = (
 				C6A9E76B1CA33C860077256F /* curl */,
 				C6A9E7611CA336D10077256F /* core */,
-				C6A9E73E1CA3364B0077256F /* core */,
 				C6A9E7421CA3366B0077256F /* gis */,
 				C6A9E7511CA336AA0077256F /* http */,
 				C6A9E7431CA336730077256F /* infobip */,
@@ -183,13 +182,6 @@
 				C6A9E7401CA3365A0077256F /* wrapper */,
 			);
 			name = MsngerCore;
-			sourceTree = "<group>";
-		};
-		C6A9E73E1CA3364B0077256F /* core */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = core;
 			sourceTree = "<group>";
 		};
 		C6A9E73F1CA336510077256F /* message */ = {
