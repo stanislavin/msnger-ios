@@ -69,6 +69,7 @@
 		C60864221CA311A30076EF7C /* jsmn */ = {isa = PBXFileReference; lastKnownFileType = folder; name = jsmn; path = "/Users/cpjv68/gitrepos/msnger-core/jsmn"; sourceTree = "<absolute>"; };
 		C60864261CA3120D0076EF7C /* Msnger-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Msnger-Bridging-Header.h"; sourceTree = "<group>"; };
 		C693C7BA1CA56A81006587F7 /* Errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		C693C7BC1CA5779A006587F7 /* Errors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Errors.h; path = "../../msnger-core/core/Errors.h"; sourceTree = "<group>"; };
 		C6A9E7341CA331BB0077256F /* wrapper */ = {isa = PBXFileReference; lastKnownFileType = folder; name = wrapper; path = "/Users/cpjv68/gitrepos/msnger-core/wrapper"; sourceTree = "<absolute>"; };
 		C6A9E7441CA336860077256F /* Message.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Message.cpp; path = "../../msnger-core/message/Message.cpp"; sourceTree = "<group>"; };
 		C6A9E7451CA336860077256F /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Message.h; path = "../../msnger-core/message/Message.h"; sourceTree = "<group>"; };
@@ -89,8 +90,7 @@
 		C6A9E75B1CA336CD0077256F /* jsmn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = jsmn.h; path = "../../msnger-core/jsmn/jsmn.h"; sourceTree = "<group>"; };
 		C6A9E75C1CA336CD0077256F /* jsmntools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = jsmntools.c; path = "../../msnger-core/jsmn/jsmntools.c"; sourceTree = "<group>"; };
 		C6A9E75D1CA336CD0077256F /* jsmntools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = jsmntools.h; path = "../../msnger-core/jsmn/jsmntools.h"; sourceTree = "<group>"; };
-		C6A9E7621CA336DC0077256F /* core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = core.h; path = "../../msnger-core/core/core.h"; sourceTree = "<group>"; };
-		C6A9E7631CA336DC0077256F /* event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = event.h; path = "../../msnger-core/core/event.h"; sourceTree = "<group>"; };
+		C6A9E7631CA336DC0077256F /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Event.h; path = "../../msnger-core/core/Event.h"; sourceTree = "<group>"; };
 		C6A9E7641CA336DC0077256F /* Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Log.h; path = "../../msnger-core/core/Log.h"; sourceTree = "<group>"; };
 		C6A9E7651CA336DC0077256F /* MessageLoop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MessageLoop.cpp; path = "../../msnger-core/core/MessageLoop.cpp"; sourceTree = "<group>"; };
 		C6A9E7661CA336DC0077256F /* MessageLoop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessageLoop.h; path = "../../msnger-core/core/MessageLoop.h"; sourceTree = "<group>"; };
@@ -251,8 +251,8 @@
 		C6A9E7611CA336D10077256F /* core */ = {
 			isa = PBXGroup;
 			children = (
-				C6A9E7621CA336DC0077256F /* core.h */,
-				C6A9E7631CA336DC0077256F /* event.h */,
+				C693C7BC1CA5779A006587F7 /* Errors.h */,
+				C6A9E7631CA336DC0077256F /* Event.h */,
 				C6A9E7641CA336DC0077256F /* Log.h */,
 				C6A9E7651CA336DC0077256F /* MessageLoop.cpp */,
 				C6A9E7661CA336DC0077256F /* MessageLoop.h */,
