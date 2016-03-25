@@ -18,6 +18,7 @@
 		C608641F1CA311930076EF7C /* http in Resources */ = {isa = PBXBuildFile; fileRef = C608641E1CA311930076EF7C /* http */; };
 		C60864211CA3119B0076EF7C /* infobip in Resources */ = {isa = PBXBuildFile; fileRef = C60864201CA3119B0076EF7C /* infobip */; };
 		C60864231CA311A30076EF7C /* jsmn in Resources */ = {isa = PBXBuildFile; fileRef = C60864221CA311A30076EF7C /* jsmn */; };
+		C693C7BB1CA56A81006587F7 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C693C7BA1CA56A81006587F7 /* Errors.swift */; };
 		C6A9E7351CA331BB0077256F /* wrapper in Resources */ = {isa = PBXBuildFile; fileRef = C6A9E7341CA331BB0077256F /* wrapper */; };
 		C6A9E7491CA336860077256F /* Message.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C6A9E7441CA336860077256F /* Message.cpp */; };
 		C6A9E74A1CA336860077256F /* Messenger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C6A9E7471CA336860077256F /* Messenger.cpp */; };
@@ -67,6 +68,7 @@
 		C60864201CA3119B0076EF7C /* infobip */ = {isa = PBXFileReference; lastKnownFileType = folder; name = infobip; path = "/Users/cpjv68/gitrepos/msnger-core/infobip"; sourceTree = "<absolute>"; };
 		C60864221CA311A30076EF7C /* jsmn */ = {isa = PBXFileReference; lastKnownFileType = folder; name = jsmn; path = "/Users/cpjv68/gitrepos/msnger-core/jsmn"; sourceTree = "<absolute>"; };
 		C60864261CA3120D0076EF7C /* Msnger-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Msnger-Bridging-Header.h"; sourceTree = "<group>"; };
+		C693C7BA1CA56A81006587F7 /* Errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
 		C6A9E7341CA331BB0077256F /* wrapper */ = {isa = PBXFileReference; lastKnownFileType = folder; name = wrapper; path = "/Users/cpjv68/gitrepos/msnger-core/wrapper"; sourceTree = "<absolute>"; };
 		C6A9E7441CA336860077256F /* Message.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Message.cpp; path = "../../msnger-core/message/Message.cpp"; sourceTree = "<group>"; };
 		C6A9E7451CA336860077256F /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Message.h; path = "../../msnger-core/message/Message.h"; sourceTree = "<group>"; };
@@ -165,6 +167,7 @@
 				C60863F71CA311450076EF7C /* Info.plist */,
 				C60863EF1CA311450076EF7C /* Msnger.xcdatamodeld */,
 				C60864261CA3120D0076EF7C /* Msnger-Bridging-Header.h */,
+				C693C7BA1CA56A81006587F7 /* Errors.swift */,
 			);
 			path = Msnger;
 			sourceTree = "<group>";
@@ -424,6 +427,7 @@
 				C60863F11CA311450076EF7C /* Msnger.xcdatamodeld in Sources */,
 				C6A9E75F1CA336CD0077256F /* jsmn.c in Sources */,
 				C6A9E7501CA3369F0077256F /* GisTransaction.cpp in Sources */,
+				C693C7BB1CA56A81006587F7 /* Errors.swift in Sources */,
 				C6A9E7551CA336B50077256F /* HttpClient.cpp in Sources */,
 				C6A9E7601CA336CD0077256F /* jsmntools.c in Sources */,
 				C6A9E74D1CA336940077256F /* Msnger.cpp in Sources */,
